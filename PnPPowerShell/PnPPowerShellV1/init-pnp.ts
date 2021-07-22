@@ -49,7 +49,7 @@ export function initPnP(contents: string[]): void {
 function getModuleName(spVersion: string): string {
   switch (spVersion) {
     case 'sponline':
-      return 'SharePointPnPPowerShellOnline'
+      return 'PnP.PowerShell'
     case 'sp2013':
       return 'SharePointPnPPowerShell2013'
     case 'sp2016':
