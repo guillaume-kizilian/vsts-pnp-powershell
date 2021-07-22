@@ -1,17 +1,17 @@
 {
     "manifestVersion": 1,
-    "author": "Sergei Sergeev",
-    "id": "pnp-powershell",
-    "version": "0.0.75",
-    "name": "PnP-PowerShell",
-    "publisher": "s-kainet",
+    "author": "Guillaume KIZILIAN",
+    "id": "pnppowershell",
+    "version": "0.0.1",
+    "name": "PnP PowerShell",
+    "publisher": "guillaume-kizilian",
     "public": true,
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
         }
     ],
-    "description": "Run a PnP-PowerShell script against SharePoint site",
+    "description": "A copy of Sergei Sergeev module with the new version of PnPPowershell since old repos is archived",
     "categories": [
         "Build and release"
     ],
@@ -31,21 +31,21 @@
     ],
     "links": {
         "license": {
-            "uri": "https://github.com/s-KaiNet/vsts-pnp-powershell/blob/master/LICENSE.MIT"
+            "uri": "https://github.com/guillaume-kizilian/vsts-pnp-powershell/blob/master/LICENSE.MIT"
         },
         "support": {
-            "uri": "https://github.com/s-KaiNet/vsts-pnp-powershell/issues"
+            "uri": "https://github.com/guillaume-kizilian/vsts-pnp-powershell/issues"
         },
         "repository": {
-            "uri": "https://github.com/s-KaiNet/vsts-pnp-powershell"
+            "uri": "https://github.com/guillaume-kizilian/vsts-pnp-powershell"
         },
         "issues": {
-            "uri": "https://github.com/s-KaiNet/vsts-pnp-powershell/issues"
+            "uri": "https://github.com/guillaume-kizilian/vsts-pnp-powershell/issues"
         }
     },
     "repository": {
         "type": "git",
-        "uri": "https://github.com/s-KaiNet/vsts-pnp-powershell"
+        "uri": "https://github.com/guillaume-kizilian/vsts-pnp-powershell"
     },
     "files": [
         {
@@ -57,7 +57,7 @@
     ],
     "contributions": [
         {
-            "id": "pnp-powershell",
+            "id": "pnppowershell",
             "type": "ms.vss-distributed-task.task",
             "targets": [
                 "ms.vss-distributed-task.tasks"
